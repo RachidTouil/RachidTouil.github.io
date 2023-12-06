@@ -8,61 +8,80 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section class="memory-game">
+  <div id="compteur">
+    <h1 id="bestScore">Best Score : </h1>
+    <h2 id="nb-click"></h2>
+    <h2 id="message"></h2>
+
+  </div>
+  <section class="memory-game" onclick="compteurClick();">
     <div class="memory-card" data-framework="aurelia">
-      <img class="front-face" src="../img/aurelia.svg" alt="Aurelia" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/pikachu.png" alt="pikachu" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
-    <div class="memory-card" data-framework="aurelia">
-      <img class="front-face" src="../img/aurelia.svg" alt="Aurelia" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+    <div class="memory-card"data-framework="aurelia">
+      <img class="front-face" src="img/pikachu.png" alt="Aurelia" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="vue">
-      <img class="front-face" src="../img/vue.svg" alt="Vue" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/bolba.png" alt="Vue" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="vue">
-      <img class="front-face" src="../img/vue.svg" alt="Vue" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/bolba.png" alt="Vue" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="angular">
-      <img class="front-face" src="../img/angular.svg" alt="Angular" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/chari.png" alt="Angular" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="angular">
-      <img class="front-face" src="../img/angular.svg" alt="Angular" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/chari.png" alt="Angular" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="ember">
-      <img class="front-face" src="../img/ember.svg" alt="Ember" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/squero.png" alt="Ember" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="ember">
-      <img class="front-face" src="../img/ember.svg" alt="Ember" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/squero.png" alt="Ember" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="backbone">
-      <img class="front-face" src="../img/backbone.svg" alt="Backbone" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="img/kaiminus.png"  alt="Backbone" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
-    <div class="memory-card" data-framework="backbone">
-      <img class="front-face" src="../img/backbone.svg" alt="Backbone" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+    <div class="memory-card"data-framework="backbone">
+      <img class="front-face" src="img/kaiminus.png" alt="Backbone" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
 
-    <div class="memory-card" data-framework="react">
-      <img class="front-face" src="../img/react.svg" alt="React" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+    <div class="memory-card"data-framework="react">
+      <img class="front-face" src="img/psykowak.png" alt="React" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
-    <div class="memory-card" data-framework="react">
-      <img class="front-face" src="../img/react.svg" alt="React" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+    <div class="memory-card"data-framework="react">
+      <img class="front-face" src="img/psykowak.png" alt="React" />
+      <img class="back-face" src="img/pokeball.png" alt="JS Badge" />
     </div>
   </section>
+  <footer>
+    <div class="footer-gauche">
+      <h5>Inspiration du projet</h5>
+      <a href="https://marina-ferreira.github.io/memory-game/">https://marina-ferreira.github.io/memory-game/</a>
+    </div>
+    <div class="footer-milieu">
+      <h5>Rachid Touil</h5>
+      <h5>Design Web B2023</h5>
+    </div>
+    <div class="footer-droit">
+      <a href="mailto:2339566@carrefour.cegepvicto.ca" target="_blank" rel="noopener noreferrer"><img src="img/camping.png" alt="" id="imgFooter"></a>
+    </div>
+  </footer>
 
   <script src="scripts.js"></script>
 </body>

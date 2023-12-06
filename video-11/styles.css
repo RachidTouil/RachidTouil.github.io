@@ -7,7 +7,8 @@
 body {
   height: 100vh;
   display: flex;
-  background: #060AB2;
+  background:#1C7CCC;
+  flex-direction: column;
 }
 
 .memory-game {
@@ -46,10 +47,39 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background:blanchedalmond;
   backface-visibility: hidden;
 }
 
 .front-face {
   transform: rotateY(180deg);
+}
+footer{
+  padding-top: 10px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aliceblue;
+  text-align:center;
+  
+}
+#imgFooter{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  padding-bottom: 10px;
+
+}
+#nb-click{
+  color: antiquewhite;
+  text-align: center;
+}
+#message{
+  color: antiquewhite;
+  text-align: center;
+}
+#bestScore{
+  color: antiquewhite;
+  text-align: center;
 }
